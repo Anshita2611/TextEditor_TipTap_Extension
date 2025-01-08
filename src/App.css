@@ -1,0 +1,43 @@
+.editor-container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #543A14;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.editor-container .ProseMirror {
+  padding: 20px;
+}
+
+.editor-container .ProseMirror-focused {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.toolbar {
+  display: flex; 
+  flex-wrap: wrap; 
+  justify-content: center; 
+  gap: 10px; 
+  padding: 15px;
+}
+
+.toolbar-button {
+  padding: 3px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: black;
+  color: #fff;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease;
+}
+
+.toolbar-button:hover {
+  background-color: #B6CBBD;
+  color: black;
+}
