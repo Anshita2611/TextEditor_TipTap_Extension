@@ -29,9 +29,6 @@ const Tiptap = () => {
         <button className="toolbar-button" onClick={() => editor.chain().focus().toggleItalic().run()}>
           Italic
         </button>
-        <button className="toolbar-button" onClick={() => editor.chain().focus().toggleStrike().run()}>
-          Strike
-        </button>
         <button className="toolbar-button" onClick={() => editor.chain().focus().setTextAlign('left').run()}>
           Left
         </button>
@@ -40,9 +37,6 @@ const Tiptap = () => {
         </button>
         <button className="toolbar-button" onClick={() => editor.chain().focus().setTextAlign('right').run()}>
           Right
-        </button>
-        <button className="toolbar-button" onClick={() => editor.chain().focus().setTextAlign('justify').run()}>
-          Justify
         </button>
         <button className="toolbar-button" onClick={() => editor.chain().focus().toggleHighlight().run()}>
           Highlight
